@@ -7,6 +7,20 @@ body {
   line-height: 1.3;
 }
 
+.signature-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.margin-button {
+  margin-top: 1rem;
+}
+
+.align-text {
+  text-align: center;
+}
+
 a {
   color: #5334f5;
   text-decoration: none;
@@ -117,6 +131,7 @@ canvas {
   display: block;
   margin: auto;
 }
+
 h2 {
   margin: 3px 20px;
   font-size: 2rem;

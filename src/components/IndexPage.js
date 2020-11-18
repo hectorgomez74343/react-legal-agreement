@@ -10,20 +10,35 @@ class IndexPage extends React.Component {
     var element = document.getElementById("legal");
     window.html2pdf(element, opt);
   };
+
+  reloadPage = () => {
+    window.location.reload();
+  };
   render() {
     return (
       <div className="container">
-        <button className="btn btn-danger" onClick={this.downloadReceipt}>
-          Download PDF
-        </button>
+        <div className="signature-flex">
+          <button
+            className="btn btn-primary margin-button"
+            onClick={this.reloadPage}
+          >
+            Click here to delete signature
+          </button>
+          <button
+            className="btn btn-danger margin-button"
+            onClick={this.downloadReceipt}
+          >
+            Click here to download PDF
+          </button>
+        </div>
         <div className="row" id="legal">
           <div className="col">
-            <p style={{ textAlign: "center" }}>
+            <p className="align-text">
               This a legal agreement between <h4>Second LLC</h4>
               and <h4>First LLC</h4> both parties agree to meet the requirements
               of this legal agreement.
             </p>
-            <p style={{ textAlign: "center" }}>
+            <p className="align-text">
               Enter your signature below with your mouse
             </p>
             <SignatureCanvas
