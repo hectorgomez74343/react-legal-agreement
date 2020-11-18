@@ -5,7 +5,7 @@ import SignatureCanvas from "react-signature-canvas";
 class IndexPage extends React.Component {
   downloadReceipt = () => {
     var opt = {
-      filename: "receipt.pdf",
+      filename: "signedlegaldocument.pdf",
     };
     var element = document.getElementById("legal");
     window.html2pdf(element, opt);
