@@ -34,9 +34,9 @@ class IndexPage extends React.Component {
         <div className="row" id="legal">
           <div className="col">
             <p className="align-text">
-              This a legal agreement between <h4>Second LLC</h4>
-              and <h4>First LLC</h4> both parties agree to meet the requirements
-              of this legal agreement.
+              This a legal agreement between <strong>Second LLC</strong>
+              and <strong>First LLC</strong> both parties agree to meet the
+              requirements of this legal agreement.
             </p>
             <p className="align-text">
               Enter your signature below with your mouse
