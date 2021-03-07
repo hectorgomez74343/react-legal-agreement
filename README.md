@@ -13,3 +13,5 @@ npm run test
 
 To install dependencies
 npm install
+
+Here is an example below of how the website looks https://wonderful-gates-dd54ef.netlify.app
