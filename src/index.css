@@ -32,3 +32,25 @@ canvas {
 .margin-button {
   margin-top: 5px;
 }
+
+.btn-delete-signature {
+  background: #ec2049;
+  color: white;
+  width: 10rem;
+  display: inline-block;
+  height: 2.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.btn-download-pdf {
+  background: #2ab7ca;
+  color: white;
+  width: 10rem;
+  display: inline-block;
+  height: 2.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+}

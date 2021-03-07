@@ -16,23 +16,17 @@ class IndexPage extends React.Component {
   };
   render() {
     return (
-      <div className="container">
+      <div>
         <div className="signature-flex">
-          <button
-            className="btn btn-primary margin-button"
-            onClick={this.reloadPage}
-          >
+          <button className="btn-delete-signature" onClick={this.reloadPage}>
             Click here to delete signature
           </button>
-          <button
-            className="btn btn-danger margin-button"
-            onClick={this.downloadReceipt}
-          >
+          <button className="btn-download-pdf" onClick={this.downloadReceipt}>
             Click here to download PDF
           </button>
         </div>
-        <div className="row" id="legal">
-          <div className="col">
+        <div id="legal">
+          <div>
             <p className="align-text">
               This a legal agreement between <strong>Second LLC</strong>
               and <strong>First LLC</strong> both parties agree to meet the
