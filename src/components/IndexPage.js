@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import SignatureCanvas from "react-signature-canvas";
 
-class IndexPage extends React.Component {
+class IndexPage extends React.PureComponent {
   downloadReceipt = () => {
     var opt = {
       filename: "signedlegaldocument.pdf",
